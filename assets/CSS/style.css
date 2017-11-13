@@ -1,0 +1,26 @@
+.gamebanner{
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	width: auto;
+}
+.gamebanner img{
+	width: 100%;
+	left: 50%;
+}
+.gamebanner h3{
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	display: inline-block;
+	font-size: 26px;
+
+}
+.gamebanner span{
+	background-color: #800020;
+	width: 100%;
+}
