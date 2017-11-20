@@ -4,25 +4,36 @@
 	<title>Hangman</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
 	
 </head>
 <body>
-<div class="gamebanner">
-	<div class="row">
-		<img src="./assets/images/thegallowshangman.jpg">
-		<h3><span>Press Any Key To Get Started!</span></h3>	
+<div class = 'container'>	
+	<div class="gamebanner">
+		<div class="gameImage">
+			<img src="./assets/images/thegallowshangman.jpg">
+			<h3><span>PRESS ANY KEY</span></h3>
+		</div>
+		<span class="yourWord">Your Word</span>	
+		<div class="underscoresForWord">
+			<h4>Underscores</h4>	
+		</div>
+		<br>
+		<div class='correctLettersGuessed'>
+				<h4>Correct Letters Guessed</h4>
+		</div>
+		<div class='wrongLettersGuessed'>
+				<h4>Wrong Letters Guessed</h4>
+		</div>
+		<br>
+		<div class='guessesLeft'>
+				<h4>Guesses Left</h4>
+		</div>
+		
 	</div>
-	
 </div>
 
-<form id="hangman">
-    <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
-    <input id="guess" name="guess" type="submit" value="Guess" />
-    <button id="restart" name="restart" type="button">Restart</button>
-</form>
-<ul id="letters"></ul>
-<p id="man"></p>
-<p id="output" class="output"></p>
+
 <script src="./assets/JavaScript/game.js"></script>
 </body>
 </html>

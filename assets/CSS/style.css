@@ -1,3 +1,6 @@
+body{
+	background-color: black;
+}
 .gamebanner{
 	text-align: center;
 	position: relative;
@@ -5,22 +8,84 @@
 	width: auto;
 }
 .gamebanner img{
-	width: 100%;
+	width: 60%;
 	left: 50%;
 }
 .gamebanner h3{
 	position: absolute;
-	bottom: 5%;
+	top: 1%;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	color: black;
+	font-family: 'Megrim', cursive;
+	color: #E60604;
 	display: inline-block;
 	font-size: 26px;
 
 }
 .gamebanner span{
-	background-color: #800020;
+	background-color: black;
 	width: 100%;
+	opacity: .6;
+}
+.underscoresForWord{
+	border: solid;
+	border-color:red;
+	background-color:#FADEB6;
+	font-family: 'Megrim', cursive;
+	font weight: bold;
+	font-size: 50px;
+	height: auto;
+	width: 60%;
+	margin-left: 19.5%;
+	padding-bottom: 15px;
+}
+.correctLettersGuessed{
+	float: left;
+	border: solid;
+	border-color:red;
+	background-color:#FADEB6;
+	font-family: 'Megrim', cursive;
+	font weight: bold;
+	font-size: auto;
+	height: 100%;
+	width: 25%;
+	margin-left: 24%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	
+}
+.wrongLettersGuessed{
+	float: left;
+	border: solid;
+	border-color:red;
+	background-color:#FADEB6;
+	font-family: 'Megrim', cursive;
+	font weight: bold;
+	font-size: auto;
+	height: 100%;
+	width: 25%;;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.guessesLeft{
+	clear: both;
+	border: solid;
+	border-color:red;
+	background-color:#FADEB6;
+	font-family: 'Megrim', cursive;
+	font weight: bold;
+	font-size: auto;
+	height: 100%;
+	width: 60%;
+	margin-left: 19.5%;
+	padding-bottom: 15px;
+}
+.yourWord {
+	font-family: 'Megrim', cursive;
+	font weight: bolder;
+	color: #E60604;
+	font-size: 25px;
 }
