@@ -8,7 +8,7 @@ body{
 	width: auto;
 }
 .gamebanner img{
-	width: 60%;
+	width: 55%;
 	left: 50%;
 }
 .gamebanner h3{
@@ -40,6 +40,7 @@ body{
 	width: 60%;
 	margin-left: 19.5%;
 	padding-bottom: 15px;
+	
 }
 .correctLettersGuessed{
 	float: left;
@@ -54,6 +55,7 @@ body{
 	margin-left: 24%;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	padding-top: 15px;
 	
 }
 .wrongLettersGuessed{
@@ -69,6 +71,7 @@ body{
 	margin-left: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	padding-top: 15px;
 }
 .guessesLeft{
 	clear: both;
@@ -82,10 +85,17 @@ body{
 	width: 60%;
 	margin-left: 19.5%;
 	padding-bottom: 15px;
+	padding-top: 15px;
 }
 .yourWord {
 	font-family: 'Megrim', cursive;
 	font weight: bolder;
 	color: #E60604;
 	font-size: 25px;
+}
+hr{
+	border: solid;
+	border-color: black;
+	background-color: black;
+	color: black;
 }
